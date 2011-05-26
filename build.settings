@@ -1,0 +1,22 @@
+settings =
+{
+        orientation =
+        {
+                default = "landscapeRight",
+				supported = { "landscapeRight" },
+        },
+ 
+        iphone =
+        {
+                plist =
+                {
+                        UIPrerenderedIcon = true,
+                        UIApplicationExitsOnSuspend = false,
+                        CFBundleIconFile = "Icon.png",
+						CFBundleIconFiles = {
+						   "Icon.png", 
+						   "Icon@2x.png",
+						},
+                },
+        }
+}

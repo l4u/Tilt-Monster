@@ -1,0 +1,5 @@
+Tilt Monster is a tilt-based game template designed for mobile devices. It was Jonathan Beebe and Biffy Beebe's first-shot at creating mobile games/apps using the Corona SDK, and was live in the App Store for a full year (and counting!)
+
+In 2011, it was released as Open Source to the Corona SDK community, so developers can learn from it and/or use it as a framework for new projects. Tilt Monster is still in the App Store (free), so if you decide you use it as a game template, you should definitely switch out the graphics and rename it.
+
+Special thanks to Ricardo Rauber for providing the Director Class which is used in this game.

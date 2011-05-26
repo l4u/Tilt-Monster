@@ -613,16 +613,6 @@ function new()
 		
 	init()
 	
-	-- create border if on iPad
-	if system.getInfo("model") == "iPad" then
-		local iPadBackground = display.newImageRect( "ipadbackground.png", 512, 384 )
-		iPadBackground:setReferencePoint( display.TopLeftReferencePoint )
-		iPadBackground.x = -16; iPadBackground.y = -34
-		
-		optionsGroup.x = 16; optionsGroup.y = 34
-		optionsGroup:insert( iPadBackground )
-	end
-	
 	clean = function()
 		unloadSounds()
 	end

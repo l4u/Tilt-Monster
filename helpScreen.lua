@@ -118,16 +118,6 @@ function new()
 		
 	init()
 	
-	-- create border if on iPad
-	if system.getInfo("model") == "iPad" then
-		local iPadBackground = display.newImageRect( "ipadbackground.png", 512, 384 )
-		iPadBackground:setReferencePoint( display.TopLeftReferencePoint )
-		iPadBackground.x = -16; iPadBackground.y = -34
-		
-		helpGroup.x = 16; helpGroup.y = 34
-		helpGroup:insert( iPadBackground )
-	end
-	
 	-- MUST return a display.newGroup()
 	return helpGroup
 end

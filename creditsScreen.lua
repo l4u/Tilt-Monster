@@ -28,16 +28,6 @@ function new()
 	
 	creditsBg:addEventListener( "touch", backToOptions )
 	
-	-- create border if on iPad
-	if system.getInfo("model") == "iPad" then
-		local iPadBackground = display.newImageRect( "ipadbackground.png", 512, 384 )
-		iPadBackground:setReferencePoint( display.TopLeftReferencePoint )
-		iPadBackground.x = -16; iPadBackground.y = -34
-		
-		creditsGroup.x = 16; creditsGroup.y = 34
-		creditsGroup:insert( iPadBackground )
-	end
-	
 	-- MUST return a display.newGroup()
 	return creditsGroup
 end
